@@ -106,5 +106,3 @@ choix = st.sidebar.selectbox("Choisis", ["Option 1", "Option 2"])
 st.write(f"Choix depuis la sidebar : {choix}")
 
 # Import data
-df=pd.read_excel(r"C:\Users\MIVS\Documents\Vs code\BD finale.xlsx") # Changer le chemin de la base de données
-st.dataframe(df)
